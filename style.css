@@ -1,0 +1,14 @@
+.wrapper{
+  height: 100vh;
+  display: flex;
+}
+
+.chat-side{
+  background-color: #333333;
+  width: 300px;
+}
+
+.chat-main{
+  background-color: #1a1d21;
+  width: calc(100% - 300px);
+}

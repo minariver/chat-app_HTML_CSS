@@ -55,6 +55,33 @@ a{
   background-color: #3f3f3f;
   border-bottom: #595959 1px solid;
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.crrent-group{
+ color: #eeeeee;
+ font-size: 20px;
+ margin-bottom: 15px;
+}
+
+.member-list{
+  color: #eeeeee;
+  font-size: 12px;
+  display: flex;
+}
+
+.member{
+  margin-left: 5px;
+}
+
+.edit-btn{
+  color: #eeeeee;
+  font-size: 16px;
+  border: 1px solid;
+  padding: 15px 20px;
 }
 
 .messages{
@@ -64,5 +91,29 @@ a{
 
 .form{
   background-color: #595959;
-  height: 90px;
+  height: 90px;padding: 20px 40px;
+}
+
+.new-message{
+  display: flex;
+}
+
+.input-text{
+  height: 50px;
+  width: 100%;
+font-size: 16px;
+padding: 0 15px;
+color: #434a54;
+border-style: none;
+
+}
+
+.submit-btn{
+  height: 50px;
+  width: 100px;
+  color: #1a1d21;
+  background-color: #eeeeee;
+  font-size: 15px;
+  padding: 0 30px;
+  margin-left: 15px;
 }
